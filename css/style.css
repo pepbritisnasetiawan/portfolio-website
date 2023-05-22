@@ -1310,3 +1310,39 @@ footer a {
         font-size: 0.8rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    body {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .about-info .professional-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills .container .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        align-items: center;
+    }
+
+    .portfolio .container .content .portfolio-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .portfolio-list .img-card img {
+        object-fit: cover;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        visibility: hidden;
+    }
+}
